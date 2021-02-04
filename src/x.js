@@ -1,4 +1,3 @@
-import css from './x.css'
-console.log(css.toString())
+import './x.css'
 
 export default 'xxx'
