@@ -13,7 +13,13 @@ module.exports = {
       title: '老孔',
       template: 'src/assets/index.html'
     }
-  )]
+  )],
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
 };
-
-
