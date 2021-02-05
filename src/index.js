@@ -1,4 +1,4 @@
-import x from './x.js'
-
-console.log(x)
+import './x.js'
+import './x.scss'
+import './z.styl'
 console.log('hi wj')
